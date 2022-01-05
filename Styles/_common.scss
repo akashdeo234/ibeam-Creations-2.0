@@ -31,6 +31,15 @@ img {
   height: auto;
   width: 100%;
 }
+.flex-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.right,.left{
+  width: 50%;
+}
+
 $primary-one: #fff;
 $secondary-one: #101010;
 $complemantory-color: #3d72a4;
