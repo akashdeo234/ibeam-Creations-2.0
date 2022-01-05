@@ -6,6 +6,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body,
@@ -59,6 +60,7 @@ img {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body,
@@ -131,6 +133,70 @@ header .container a {
 
 header .container a.logo {
   font-weight: 600;
+}
+
+footer {
+  width: 100%;
+  height: 350px;
+  background-image: url(/Resources/bg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+footer .container {
+  width: 90%;
+  height: inherit;
+  padding: 50px 0;
+  margin: 0% auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+}
+
+footer .container .top a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 2%;
+}
+
+footer .container .mid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 250px;
+}
+
+footer .container .mid a {
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+footer .container .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 110px;
+}
+
+footer .container .bottom a img {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
 }
 
 .hero-section {
