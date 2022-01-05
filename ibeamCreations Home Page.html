@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ibeam Creations</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="Styles/index.css" />
   </head>
@@ -410,9 +414,119 @@
         </div>
       </div>
     </section>
+    <section class="testimonial-sec">
+      <div class="container">
+        <div class="flex-wrapper">
+          <div class="left">
+            <img
+              src="Resources/double-quoutes.svg"
+              alt="best event management company in palakkad kerala"
+            />
+            <h1>Customers <span> Stories !</span></h1>
+          </div>
+          <div class="right">
+            <!-- Slider main container -->
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="top">
+                    <img
+                      src="Resources/testimonial-picture.svg"
+                      alt="best event in palakkad"
+                    />
+                    <div class="text-wrapper">
+                      <h6>Akash M</h6>
+                      <span>Co-founder of webfine</span>
+                    </div>
+                  </div>
+                  <div class="bottom">
+                    <p>
+                      We didn't have the time to properly plan the naming
+                      ceremony of our son. Our parents had also invited many
+                      guests. The date was approaching and tension brewed. The
+                      idea to book Happy Menu was given by my cousin and
+                      whatever felt as hassles vanished forever. My happiness
+                      had no bounds and am really indebted to Happy Menu.
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="top">
+                    <img
+                      src="Resources/testimonial-picture.svg"
+                      alt="best event in palakkad"
+                    />
+                    <div class="text-wrapper">
+                      <h6>Akash M</h6>
+                      <span>Co-founder of webfine</span>
+                    </div>
+                  </div>
+                  <div class="bottom">
+                    <p>
+                      We didn't have the time to properly plan the naming
+                      ceremony of our son. Our parents had also invited many
+                      guests. The date was approaching and tension brewed. The
+                      idea to book Happy Menu was given by my cousin and
+                      whatever felt as hassles vanished forever. My happiness
+                      had no bounds and am really indebted to Happy Menu.
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="top">
+                    <img
+                      src="Resources/testimonial-picture.svg"
+                      alt="best event in palakkad"
+                    />
+                    <div class="text-wrapper">
+                      <h6>Akash M</h6>
+                      <span>Co-founder of webfine</span>
+                    </div>
+                  </div>
+                  <div class="bottom">
+                    <p>
+                      We didn't have the time to properly plan the naming
+                      ceremony of our son. Our parents had also invited many
+                      guests. The date was approaching and tension brewed. The
+                      idea to book Happy Menu was given by my cousin and
+                      whatever felt as hassles vanished forever. My happiness
+                      had no bounds and am really indebted to Happy Menu.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script>
       AOS.init();
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        direction: "vertical",
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+      });
     </script>
   </body>
 </html>
