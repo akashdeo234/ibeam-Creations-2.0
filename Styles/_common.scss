@@ -37,11 +37,44 @@ img {
   justify-content: center;
 }
 
-.right,.left{
+.left,.right{
   width: 50%;
 }
+
 
 $primary-one: #fff;
 $secondary-one: #101010;
 $complemantory-color: #3d72a4;
 $font-color: #000;
+
+/*mobile view media queries starts*/
+@media (max-width: 766px) {
+  .container{
+    width: 95%;
+  }
+  .flex-wrapper{
+    flex-direction: column;
+  }
+  .left{
+    width: 100%;
+  }
+  .right{
+    width: 100%;
+  }
+  
+}
+
+/* mobile iphone se starts */
+@media (min-width: 320px) and (max-width: 375px) {
+
+}
+
+/*Tablet View Media Queries starts*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+/*Desktop or Larger Pc View Media Queries Starts*/
+@media only screen and (min-width: 1600px) {
+
+}
