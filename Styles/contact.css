@@ -1,1 +1,410 @@
-/* No CSS *//*# sourceMappingURL=contact.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body,
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+section {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  overflow-x: hidden;
+  width: 90%;
+  margin: 0% auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+.flex-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.right, .left {
+  width: 50%;
+}
+
+footer {
+  width: 100%;
+  height: 350px;
+  background-image: url(/Resources/bg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+footer .container {
+  width: 90%;
+  height: inherit;
+  padding: 50px 0;
+  margin: 0% auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+}
+
+footer .container .top a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 2%;
+}
+
+footer .container .mid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 250px;
+}
+
+footer .container .mid a {
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+footer .container .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 110px;
+}
+
+footer .container .bottom a img {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body,
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+section {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  overflow-x: hidden;
+  width: 90%;
+  margin: 0% auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+.flex-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.right, .left {
+  width: 50%;
+}
+
+header {
+  width: 100%;
+  padding-top: 60px;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .container a {
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+header .container a.logo {
+  font-weight: 600;
+}
+
+.contact-us-sec {
+  width: 100%;
+  height: auto;
+  background-color: #101010;
+  color: #fff;
+  overflow: hidden;
+}
+
+.main-contact {
+  width: 100%;
+  height: auto;
+  padding: 65px 0 0px;
+}
+
+.main-contact .container {
+  width: 85%;
+}
+
+.main-contact .container .flex-wrapper {
+  gap: 0px 65px;
+}
+
+.main-contact .container .flex-wrapper .left {
+  width: 50%;
+}
+
+.main-contact .container .flex-wrapper .left form {
+  padding: 30px 0;
+  margin: 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+.main-contact .container .flex-wrapper .left h1 {
+  color: #474544;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.main-contact .container .flex-wrapper .left .underline {
+  border-bottom: solid 2px #474544;
+  margin: -0.512em auto;
+  width: 80px;
+}
+
+.main-contact .container .flex-wrapper .left .icon_wrapper {
+  margin: 50px auto 0;
+  width: 100%;
+}
+
+.main-contact .container .flex-wrapper .left .icon {
+  display: block;
+  fill: #474544;
+  height: 50px;
+  margin: 0 auto;
+  width: 50px;
+}
+
+.main-contact .container .flex-wrapper .left input[type="text"],
+.main-contact .container .flex-wrapper .left [type="email"],
+.main-contact .container .flex-wrapper .left select,
+.main-contact .container .flex-wrapper .left textarea {
+  background: none;
+  border: none;
+  border-bottom: solid 2px #474544;
+  color: #474544;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0em 0 1.875em 0;
+  padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.main-contact .container .flex-wrapper .left input[type="text"]:focus,
+.main-contact .container .flex-wrapper .left [type="email"]:focus,
+.main-contact .container .flex-wrapper .left textarea:focus {
+  outline: none;
+  padding: 0 0 0.875em 0;
+}
+
+.main-contact .container .flex-wrapper .left .message {
+  float: none;
+}
+
+.main-contact .container .flex-wrapper .left .name {
+  float: left;
+  width: 100%;
+}
+
+.main-contact .container .flex-wrapper .left select {
+  background: url("https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png") no-repeat right;
+  outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.main-contact .container .flex-wrapper .left select::-ms-expand {
+  display: none;
+}
+
+.main-contact .container .flex-wrapper .left .subject {
+  width: 100%;
+}
+
+.main-contact .container .flex-wrapper .left .telephone {
+  width: 100%;
+}
+
+.main-contact .container .flex-wrapper .left textarea {
+  line-height: 100%;
+  height: 100px;
+  resize: none;
+  width: 100%;
+}
+
+.main-contact .container .flex-wrapper .left ::-webkit-input-placeholder {
+  color: #474544;
+}
+
+.main-contact .container .flex-wrapper .left :-moz-placeholder {
+  color: #474544;
+  opacity: 1;
+}
+
+.main-contact .container .flex-wrapper .left ::-moz-placeholder {
+  color: #474544;
+  opacity: 1;
+}
+
+.main-contact .container .flex-wrapper .left :-ms-input-placeholder {
+  color: #474544;
+}
+
+.main-contact .container .flex-wrapper .left #form_button {
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.main-contact .container .flex-wrapper .left #form_button:hover {
+  background: #474544;
+  color: #f2f3eb;
+}
+
+.main-contact .container .flex-wrapper .right {
+  width: 50%;
+  margin-top: 50px;
+  position: relative;
+}
+
+.main-contact .container .flex-wrapper .right h1 {
+  font-size: 100px;
+  text-align: right;
+  max-width: 500px;
+  opacity: 0.7;
+  position: relative;
+  z-index: 2;
+}
+
+.main-contact .container .flex-wrapper .right h1::before {
+  content: "";
+  background: #fff;
+  width: 40%;
+  height: 3px;
+  display: block;
+  border-radius: 5px;
+  margin: 25px 0;
+  position: absolute;
+  top: 65%;
+  right: 36%;
+}
+
+.main-contact .container .flex-wrapper .right img {
+  position: absolute;
+  top: -19%;
+  right: -10%;
+  width: auto;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.1;
+}
+/*# sourceMappingURL=contact.css.map */
