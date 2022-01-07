@@ -172,7 +172,31 @@ footer .container .bottom a img {
 }
 
 /* mobile iphone se starts */
+@media (min-width: 320px) and (max-width: 375px) {
+  footer .container .top a {
+    font-size: 20px;
+  }
+  footer .container .mid {
+    gap: 50px;
+  }
+  footer .container .mid a {
+    font-size: 15px;
+  }
+}
+
 /*Tablet View Media Queries starts*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  footer {
+    height: auto;
+  }
+  footer .container {
+    height: auto;
+  }
+  footer .container .mid {
+    gap: 135px;
+  }
+}
+
 /*Desktop or Larger Pc View Media Queries Starts*/
 * {
   margin: 0%;
@@ -304,6 +328,15 @@ header .container a.logo {
 }
 
 /* mobile iphone se starts */
+@media (min-width: 320px) and (max-width: 375px) {
+  header .container a {
+    font-size: 12px;
+  }
+  header .container a:nth-child(2) {
+    font-size: 15px;
+  }
+}
+
 /*Tablet View Media Queries starts*/
 /*Desktop or Larger Pc View Media Queries Starts*/
 .contact-us-sec {
@@ -557,6 +590,21 @@ header .container a.logo {
 }
 
 /* mobile iphone se starts */
+@media (min-width: 320px) and (max-width: 375px) {
+  .main-contact .container .flex-wrapper .right h1 {
+    font-size: 67px;
+  }
+}
+
 /*Tablet View Media Queries starts*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .main-contact .container .flex-wrapper .right h1 {
+    font-size: 79px;
+  }
+  .main-contact .container .flex-wrapper .right img {
+    right: -20%;
+  }
+}
+
 /*Desktop or Larger Pc View Media Queries Starts*/
 /*# sourceMappingURL=contact.css.map */

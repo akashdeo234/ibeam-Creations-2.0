@@ -42,6 +42,16 @@ header {
 
 /* mobile iphone se starts */
 @media (min-width: 320px) and (max-width: 375px) {
+  header{
+    .container{
+      a{
+        font-size: 12px;
+      }
+      a:nth-child(2) {
+        font-size: 15px;
+      }
+    }
+  }
 }
 
 /*Tablet View Media Queries starts*/

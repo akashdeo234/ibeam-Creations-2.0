@@ -86,11 +86,35 @@ footer {
 
 /* mobile iphone se starts */
 @media (min-width: 320px) and (max-width: 375px) {
+  footer{
+    .container{
+      .top{
+        a{
+          font-size: 20px;
+        }
+      }
+      .mid{
+        gap: 50px;
+        a{
+          font-size: 15px;
+        }
+      }
+    }
+  }
 
 }
 
 /*Tablet View Media Queries starts*/
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  footer{
+    height: auto;
+    .container{
+      height: auto;
+      .mid{
+        gap: 135px;
+      }
+    }
+  }
 
 }
 

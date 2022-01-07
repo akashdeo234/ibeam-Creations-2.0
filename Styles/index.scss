@@ -689,21 +689,21 @@
         }
         .right {
           width: 100%;
-          .swiper{
+          .swiper {
             padding: 40px 20px 40px 17px;
-            .swiper-wrapper{
-              .swiper-slide{
+            .swiper-wrapper {
+              .swiper-slide {
                 padding: 40px 20px;
-                .bottom{
-                  p{
+                .bottom {
+                  p {
                     font-size: 12px;
-                    line-height: 25px;                
+                    line-height: 25px;
                   }
                 }
               }
             }
           }
-          img{
+          img {
             width: 45px;
           }
         }
@@ -714,10 +714,250 @@
 
 /* mobile iphone se starts */
 @media (min-width: 320px) and (max-width: 375px) {
+  .main-hero {
+    .flex-wrapper {
+      .left {
+        h1 {
+          font-size: 21px;
+          line-height: 42px;
+        }
+      }
+      .btn-group {
+        gap: 20px;
+      }
+    }
+  }
+  .top-event-section {
+    .container {
+      .flex-wrapper {
+        .left {
+          .btn-group {
+            gap: 20px;
+          }
+        }
+      }
+    }
+  }
+  .our-service-sec {
+    .container {
+      .flex-wrapper {
+        .left {
+          .card {
+            h6 {
+              font-size: 10px;
+              left: 20px;
+              bottom: 0px;
+            }
+          }
+        }
+        .right {
+          .card-wrapper {
+            .card {
+              img {
+                width: 40px;
+                height: auto;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .latest-work-section {
+    .container {
+      .flex-wrapper {
+        .left {
+          .btn-group {
+            gap: 13px;
+          }
+        }
+      }
+    }
+  }
+  .why-choose-us {
+    .container {
+      .flex-wrapper {
+        .left {
+          .btn-group {
+            gap: 13px;
+          }
+        }
+      }
+    }
+  }
 }
 
 /*Tablet View Media Queries starts*/
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .main-hero {
+    .flex-wrapper {
+      .left {
+        h1 {
+          font-size: 25px;
+          line-height: 48px;
+          max-width: 520px;
+        }
+      }
+      .right {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+  //top event section
+  .top-event-section {
+    width: 100%;
+    .container {
+      width: 95%;
+      .flex-wrapper {
+        flex-direction: column;
+        gap: 20px;
+        .left {
+          width: 100%;
+          h2 {
+            max-width: 100%;
+            font-size: 36px;
+            line-height: 48px;
+          }
+          p {
+            max-width: 100%;
+            font-size: 18px;
+            line-height: 36px;
+            letter-spacing: 5%;
+          }
+          .btn-group {
+            a {
+              width: 50%;
+              text-align: center;
+            }
+          }
+        }
+        .right {
+          width: 100%;
+        }
+      }
+    }
+  }
+  //our-service-sec
+  .our-service-sec {
+    .container {
+      width: 95%;
+      .flex-wrapper {
+        flex-direction: column;
+        .left {
+          width: 100%;
+          .card {
+            height: 50vh;
+            h6 {
+              font-size: 23px;
+            }
+          }
+        }
+        .right {
+          width: 100%;
+          .card-wrapper {
+            .card {
+              height: 40vh;
+              h6 {
+                font-size: 19px;
+                left: 25px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  //our-latest-work
+  .latest-work-section {
+    .container {
+      width: 95%;
+      margin: 0 auto;
+      .flex-wrapper {
+        flex-direction: column;
+        .left {
+          width: 100%;
+          h2 {
+            max-width: 100%;
+            font-size: 36px;
+            line-height: 48px;
+          }
+          p {
+            max-width: 100%;
+            font-size: 18px;
+            line-height: 36px;
+            letter-spacing: 5%;
+          }
+          .btn-group {
+            a {
+              width: 50%;
+              text-align: center;
+            }
+          }
+        }
+        .right {
+          width: 100%;
+        }
+      }
+    }
+  }
+  //why-choose-us
+  .why-choose-us {
+    .container {
+      width: 95%;
+      .flex-wrapper {
+        flex-direction: column;
+        gap: 35px;
+        .left {
+          width: 100%;
+          h2 {
+            max-width: 100%;
+            font-size: 36px;
+            line-height: 48px;
+          }
+          p {
+            max-width: 100%;
+            font-size: 18px;
+            line-height: 36px;
+            letter-spacing: 5%;
+          }
+          .btn-group {
+            a {
+              width: 50%;
+              text-align: center;
+            }
+          }
+        }
+        .right {
+          width: 100%;
+          .card-wrapper {
+            gap: 20px;
+          }
+        }
+      }
+    }
+  }
+  //testimonial
+  .testimonial-sec {
+    .container {
+      width: 95%;
+      .flex-wrapper {
+        .left {
+          img {
+            width: 270px;
+            height: 250px;
+          }
+          h1 {
+            font-size: 54px;
+            line-height: 71px;
+            transform: translateY(0px);
+          }
+        }
+      }
+    }
+  }
 }
 
 /*Desktop or Larger Pc View Media Queries Starts*/
