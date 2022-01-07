@@ -20,20 +20,21 @@ header {
 
 /*mobile view media queries starts*/
 @media (max-width: 766px) {
-  header{
-    .container{
-      a:nth-child(2){
+  header {
+    padding-top: 45px;
+    .container {
+      a:nth-child(2) {
         order: 1;
-        font-size: 20px;
+        font-size: 18px;
       }
-      a:nth-child(1){
+      a:nth-child(1) {
         order: 2;
-        font-size: 16px;
-        
+        font-size: 14px;
+        margin-left: 39px;
       }
-      a:nth-child(3){
+      a:nth-child(3) {
         order: 3;
-        font-size: 16px;
+        font-size: 14px;
       }
     }
   }
@@ -41,15 +42,12 @@ header {
 
 /* mobile iphone se starts */
 @media (min-width: 320px) and (max-width: 375px) {
-
 }
 
 /*Tablet View Media Queries starts*/
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-
 }
 
 /*Desktop or Larger Pc View Media Queries Starts*/
 @media only screen and (min-width: 1600px) {
-
 }

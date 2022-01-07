@@ -279,23 +279,27 @@ header .container a.logo {
 
 /*mobile view media queries starts*/
 @media (max-width: 766px) {
+  header {
+    padding-top: 45px;
+  }
   header .container a:nth-child(2) {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
-    font-size: 20px;
+    font-size: 18px;
   }
   header .container a:nth-child(1) {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
-    font-size: 16px;
+    font-size: 14px;
+    margin-left: 39px;
   }
   header .container a:nth-child(3) {
     -webkit-box-ordinal-group: 4;
         -ms-flex-order: 3;
             order: 3;
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
