@@ -51,6 +51,36 @@ footer {
 
 /*mobile view media queries starts*/
 @media (max-width: 766px) {
+  footer{
+    width: 100%;
+    height: auto;
+    .container{
+      width: 95%;
+      align-items: center;
+      .top{
+        a{
+          font-size: 25px;
+        }
+      }
+      .mid{
+        gap: 65px;
+        a{
+          font-size: 18px;
+        }
+      }
+      .bottom{
+        gap: 50px;
+        a{
+
+          img {
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+          }
+      }
+      }
+    }
+  }
 
 }
 

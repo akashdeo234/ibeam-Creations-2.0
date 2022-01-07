@@ -657,11 +657,54 @@
                 line-height: 27px;
                 padding-bottom: 30px;
               }
-              a.btn{
+              a.btn {
                 padding: 9px 18px;
                 font-size: 10px;
               }
             }
+          }
+        }
+      }
+    }
+  }
+  //testimonial-section
+  .testimonial-sec {
+    width: 100%;
+    height: auto;
+    .container {
+      .flex-wrapper {
+        flex-direction: column;
+        .left {
+          width: 100%;
+          img {
+            width: 200px;
+            height: 200px;
+            transform: translateX(-35px);
+          }
+          h1 {
+            font-size: 50px;
+            line-height: 63px;
+            transform: translateY(-28px);
+          }
+        }
+        .right {
+          width: 100%;
+          .swiper{
+            padding: 40px 20px 40px 17px;
+            .swiper-wrapper{
+              .swiper-slide{
+                padding: 40px 20px;
+                .bottom{
+                  p{
+                    font-size: 12px;
+                    line-height: 25px;                
+                  }
+                }
+              }
+            }
+          }
+          img{
+            width: 45px;
           }
         }
       }
