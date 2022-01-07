@@ -516,6 +516,46 @@ header .container a.logo {
 }
 
 /*mobile view media queries starts*/
+@media (max-width: 766px) {
+  .main-contact {
+    width: 100%;
+    height: auto;
+  }
+  .main-contact .container {
+    width: 95%;
+  }
+  .main-contact .container .flex-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-contact .container .flex-wrapper .left {
+    width: 100%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .main-contact .container .flex-wrapper .left form {
+    padding: 65px 0 30px;
+  }
+  .main-contact .container .flex-wrapper .right {
+    width: 100%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .main-contact .container .flex-wrapper .right h1 {
+    font-size: 80px;
+  }
+  .main-contact .container .flex-wrapper .right img {
+    top: -50%;
+    left: -36%;
+    width: 100%;
+    height: auto;
+  }
+}
+
 /* mobile iphone se starts */
 /*Tablet View Media Queries starts*/
 /*Desktop or Larger Pc View Media Queries Starts*/
